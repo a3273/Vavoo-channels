@@ -1,6 +1,9 @@
 """
 Provider Vavoo - API ufficiale mediahubmx (senza proxy, diretto).
-URL diretti nel playlist (lunghi ma funzionanti).
+
+Resolve multi-tentativo: prova fino a 3 volte per canale e preferisce
+URL https (piu' compatibili con app Android e ISP).
+Traccia lo scheme in status.json per la diagnostica.
 """
 
 import time
@@ -18,6 +21,9 @@ REGION = "US"
 BASE_SITES = ["https://vavoo.to", "https://kool.to"]
 PING_URL = "https://www.vavoo.tv/api/app/ping"
 SEPARATORS = ["➾", "⟾", "->", "→", "»", "›"]
+
+# Tentativi di resolve per trovare un URL https
+RESOLVE_ATTEMPTS = 3
 
 _catalog_cache = None
 _sig = {"value": None, "ts": 0}
@@ -169,26 +175,57 @@ def _find_in_catalog(query, catalog):
     return None
 
 
-def _resolve_url(channel_url):
+def _try_resolve(base, channel_url):
+    """Un singolo tentativo di resolve. Restituisce l'URL o None."""
     body = {
         "language": LANGUAGE, "region": REGION,
         "url": channel_url, "clientVersion": "3.0.2",
     }
-    for base in BASE_SITES:
-        try:
-            r = requests.post(
-                f"{base}/mediahubmx-resolve.json",
-                headers=_api_headers(), json=body,
-                timeout=30, verify=False,
-            )
-            r.raise_for_status()
-            data = r.json()
-            if isinstance(data, list) and data and data[0].get("url"):
-                return data[0]["url"]
-            if isinstance(data, dict):
-                return data.get("url") or data.get("streamUrl")
-        except Exception as e:
-            logger.warning("Vavoo: resolve fallito da %s: %s", base, e)
+    try:
+        r = requests.post(
+            f"{base}/mediahubmx-resolve.json",
+            headers=_api_headers(), json=body,
+            timeout=30, verify=False,
+        )
+        r.raise_for_status()
+        data = r.json()
+        if isinstance(data, list) and data and data[0].get("url"):
+            return data[0]["url"]
+        if isinstance(data, dict):
+            return data.get("url") or data.get("streamUrl")
+    except Exception as e:
+        logger.warning("Vavoo: resolve fallito da %s: %s", base, e)
+    return None
+
+
+def _resolve_url(channel_url):
+    """
+    Resolve multi-tentativo: prova fino a RESOLVE_ATTEMPTS volte
+    e preferisce URL https (compatibili con app Android e ISP).
+    """
+    candidates = []
+
+    for attempt in range(RESOLVE_ATTEMPTS):
+        for base in BASE_SITES:
+            url = _try_resolve(base, channel_url)
+            if url:
+                candidates.append(url)
+
+        # Se abbiamo trovato almeno un https, usalo subito
+        https_urls = [u for u in candidates if u.startswith("https://")]
+        if https_urls:
+            logger.info("Vavoo: https trovato al tentativo %d", attempt + 1)
+            return https_urls[0]
+
+        # Piccola pausa tra i tentativi (l'API potrebbe ruotare backend)
+        if attempt < RESOLVE_ATTEMPTS - 1:
+            time.sleep(1)
+
+    # Fallback: primo URL disponibile (anche http)
+    if candidates:
+        logger.warning("Vavoo: solo http disponibile dopo %d tentativi", RESOLVE_ATTEMPTS)
+        return candidates[0]
+
     return None
 
 
@@ -207,6 +244,7 @@ def get_stream(query):
         "url": url,
         "matched_name": match["name"],
         "logo": match.get("logo", ""),
+        "scheme": "https" if url.startswith("https://") else "http",
     }
 
 
@@ -228,4 +266,3 @@ def resolve(channel, stream):
         "proxy": "direct",
         "proxy_required": False,
     }
-    
