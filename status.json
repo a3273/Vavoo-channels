@@ -1,12 +1,38 @@
 {
   "summary": {
-    "channels_total": 13,
-    "channels_enabled": 13,
-    "streams_total": 13,
-    "streams_generated": 13,
+    "channels_total": 15,
+    "channels_enabled": 15,
+    "streams_total": 15,
+    "streams_generated": 15,
     "streams_failed": 0
   },
   "channels": {
+    "RSI La 1": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "http://93.123.109.95:8008/sunshine/UoQRz1n7BBqfy8lJCj1xYMmQt8iaySCiSMLWKTg_sQ2K7ZHsN8C0jzv-T_W_o7hQ7yy5DwY3si2rmqVkQpTd6gRXv_lk3jH6eBmgUfLY8vmJxu0OpUpQ0Uif0d2hyIonplyu2snbU844MNkfwKSUVwcw9TsfzeQKkdic1bQPf796l4Nz6K8XV9gze1G9sepLXj1HMycwfzKHwTsmld_vgJL51rRqHzuq1cn6411l9ImXf1wBSm0N0G-zqemD6SM2j8iybSH2v-eOPRD4Z_rKG8QdV82Nbr2nWpryTGb1gOs/hls/index.m3u8"
+        }
+      ]
+    },
+    "RSI La 2": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/QxOhipBLP-OcEVEUAX6KZtMkLJLRhqFtluZElLvDYCu3HUReNr_2C7bMVR6DqM7-HbCtduqdfkjOuCOWix5GSS9TMExDEtDYjqKw6jESRbkZa0PtcTFbdB-5IQe5Z7tWPgMSN__hDJocir4bGDKx-2vrTfyFAJ-pxbhR-gn8PjyYvAiQlsm93qR8aulup19LREwGrLN8HHaAqmBELmetSHcnA7UqHqj7n-HgFkf_FlapNDt95Z1ubH2fXYWNQawD_8lSfcr2wEkfztPg1zeOBF9srsjkQX7OCEDcIjhDsSE/hls/index.m3u8"
+        }
+      ]
+    },
     "Sky Sport 24": {
       "enabled": true,
       "streams": [
@@ -16,7 +42,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://185.209.15.138:8008/sunshine/r4HleOjt8ojUgcP7Qs5xNHmJ2y_dgj3T9uEWUKi4T_8XveS3rlLK6PxFEpKyVU9JKLz-QqlP8VSmFj3sZE4LmAO9uwoAgArNkhs0l8-X8VhtXmu5WaURLJqkSffAb6NcfXP_nxsCemcApaekmapunxhmG7pDoBNogqA9MHGWzeZxCGrqR3iCNN85wLgXARqb_58mr98VLx9Iwqjen8MrTyO4U4Bn55XOkPhkCwokH041woP00prcTXVMPbE2DmsH-BdHYKpnCmz-oqcB8R4J2mh4r4NkptGiBJGLpoG9cuY/hls/index.m3u8"
+          "url": "https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/14Q9CIEFyYPBhQcB3_aID6I-nlm3E7zlAYiMBXW51LtehYskKQ1RwPZjzSBhy9pNWgmjHQVxAsKahJ4BkORbi0OoxEwpNwyEnxPhNCOl-FUwwulUftB4OUNAb73wUXalVhDiwu7D0XASFMJoIFNHG0VQoWZrTsDAHOvi7tLZwUhnejNbtuE2WJBIOFIP54mEh6nXEK4tj0rMIZeCMu9dchlQ6pnSNQdXIH4MvWldtgASQ4ALf9vU1OFEzRw9NJrj92rMEMHSi4guGK6sHJSWXpC4a-jT_OZAN-mUk8Q0gnY/hls/index.m3u8"
         }
       ]
     },
@@ -29,7 +55,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://37.49.229.191:8008/sunshine/FLkA-DdXZtTKJpNpeyg-AqKqB8YzfdV0UcXf2mSXo4o1I1nAEgut9SnPHmiqplZjeAUgbB8p9kJSWr1AnZIi-ZeqRu4ovRVphCc8qZvQ1paHLl-2tQhMS4u3XXsHsTJgdCiK41lobObDWfuFDYOoo9kn4Pfq55yGfdmYH_DenNR6UsExLXVtuRUN_cv16LmhwX2Wda5JMj4jSGYl684EER39XKYnOsx7RTiE2YU2ONSNnsgWxGsEACeVsjNABQn3u2xZasfKfV2u30N7PJujxoWjEPqaWPMQLqW1ofiquPE/hls/index.m3u8"
+          "url": "http://37.49.229.191:8008/sunshine/pPHw0gvOre4muhus7lv3IP-ygYP_1Hx3CYpX44qHytT8_9KF4BX4OWEuDpnpwbe04UX4r5h5GJPtIqU3GdQciUmnFe00Nt94OC2DKLIaBuXEN9mpymq98FEKZy8D-mxnpG3C9I80FzrPnOqT0a6Hcm8frxTOq-uzJU4t9R76Y2XDF2dInEpefOQvS8x6PyaaXbX5ysMagih1k9et9JkGbTz2duaVET4DulyCfS_VLGt3eHIiJ5FJZLoua7pRTKt0DtRHFr-sc8gbqdRn8OBKMj3kwvDyTm_A0Nk3w0vs73U/hls/index.m3u8"
         }
       ]
     },
@@ -42,7 +68,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://109.205.187.47:8008/sunshine/WzaVrZ1f4axAizPbAzgfnHTLmBKAx0Cv1FxkRBqbFDRfv9nq8voOyk_C-vukorJsyBAUSnuLSzqR8GqFtf4AQzS0_-8o0we15CYaGBb0or7oLJLRlD700OD_xZmBDW5Y05SZ10UGaFj4hcRiRc6A8L_umJyrd0gcoABZZaxNcpqDoGE_jBnQMkMMjIdZw8woVFeq4Ct31HMCYB_Jx2RIkOEQSCgubEJzenpfj0R5-foy__hflFK5VkQCMePG4y7bntJ2Azxg3E_DUsJ8nWAXHB4_Jla9m1xn1IS_AW0oDuc/hls/index.m3u8"
+          "url": "http://109.205.187.47:8008/sunshine/w5kO7MmU71mgGFt8t8hmmkBpyJeLm089iJWOMwSDpWFofAk34RHtkMyB_bvzcumBi54Gzii1D7A8zvNTXzDg_1zIaVOXysyMZcelYGLPFB0IbaOY1Avnxb7hnaspMvkNeHLPEsMB9knQwo5yFWg5GCiyK0HcgZoZb6SJGLktdDr92tvgoYsOHyomzd8bvaz6-SXLILUwOT-jAcUYb1qpmHLhxu6FrtAi4d525XUA0_uQ3eF5BVA_tqWAaX0ULZZGYhjAA1kEkgiGMmqU-iUPQR9PW25n2r5KHA_3za6hkzM/hls/index.m3u8"
         }
       ]
     },
@@ -55,7 +81,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://37.49.229.191:8008/sunshine/N8o-vPPhDPRzTUpFbPvQnMuaPjaolsPo0kXPwk2nEnZPeedEM6sIKzpUUKYsUsW0Rq29o8aSnfN5DblDGpG4FlZPdxJ8lmvzjhf9jIlDub55TkXZQ1VIHlNY8YnS86rXV2Y_6220w6uMO5LUdfvATa9rflHPAGYsG3Rg6gvENMjkQPGS9y8okTetuq4ifgLfrYKN0Ypwaum4YINijUeLQT-WH3lXzfENVLQUu1Fsk6-tBCArR9YYE1F3QEEhHqlPBO4AC_75tSJicXmLjmznsSi1Rlm6Ipi22M7skuy8_Co/hls/index.m3u8"
+          "url": "http://37.49.229.191:8008/sunshine/ZuLndcms2vkCNwQKsb4JR-ig-y7ycJHty-uAmX3is9k8KNGVvcroLdPnDh-zno7dVr4bzuGg-vBaagQhPBYORR7Gb3Z1qZfUNsVFGT6RXs-CVE6hfO53Fl5yMEB7PPtAVtV_LVN7m2pHB8qDILZI-oOmSO2e-8457BQRZ18I87FEFC3auztp20FBC7eZJ7swwDyFU-1kZ9TNDxpJycszPBasalqPsJtpY2FhvKUGNq8eWlWa-O6wmJ8xdGKvf-Aru4u7rKAJzK_lcACCfywoZ8LMfXUL4bRPgnSEOShw9GU/hls/index.m3u8"
         }
       ]
     },
@@ -68,7 +94,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://37.49.225.50:8008/sunshine/Y4oM053tcli-GWira1FHzDT6Y2GzfxPO6ReM7BcRrut2BQhlHs4G3HtDyU6cG-Y15VnOgZrC9-YLpNiY44PSK3REqNIojhG2iCnWbzlKY1ucYMjinZjy2TKvcdeEV5mqAd7-kt1rctD7l-w8rTK18xYOYhnpgpIQb-jOuXNdNH2dXmPFAZ9VtgPS-VyI5V259DsSSzF17upwKX7pDk0tvts6JbAN7f66xjpycfT1A6KKdF2uB1KgelCpG2l0lWLFDpoc-Ocns-ecCLcl0oHx0ROFYZ2cbXM_PYbPHk7VyDs/hls/index.m3u8"
+          "url": "http://37.49.225.50:8008/sunshine/ywEXd5o9YzOF20PsOinyzAxZrAg_nA0fGXvHrXyz57SEKS8kr7B1tkH8KR17deQAEwFU43j_Um_zFpdC8iYYin_UdLttfZSImOG9evBdnZL3t7T1R03KBbLhDNVD4FRnSiTW9RXcTJZ1oA4DZ_-l6nacNvWLeClCM9jzxjCvxk9ZFvSpofPDUwAJG_Nrfhhz9EAdGg5Vo-FpabSzoMyxStD73bDdowltMqIypibnRZ7nj5j77A0AxcfD-4xurfp_kTLnt1lrcD--pqTygOQJ2UIvRhcBZEE1PDv1HCQ57N0/hls/index.m3u8"
         }
       ]
     },
@@ -81,7 +107,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://185.209.15.138:8008/sunshine/aAtXcinXs1egXBvMAaYbQAoF1pYVi4sBlUKZq1T7r6FyYNvJcrFLtxM0oETJl1HRHaRifQhFNo8nFv5NrZlhqbgEsxN1x9j8v3Kj4E10NVK04zNK7WorI0twIzplED8oydph2Kz-ajUPy_qVWGDknM-HNm5eNJmBPhYt6_g4ez3KRg1yhzLO4v3klYawxWHU8eKSbWQX-LMnyBE1_dA2zGDk3Sm5EDKHKbBYWJKp2mCm7DFga2ipuAb9eCF_T_UDQckVVRFO_wSVkEWoL_IhMqxFpAdoLPA6MrjgR4ZDOg8/hls/index.m3u8"
+          "url": "http://117.55.202.68:8008/sunshine/W5lhgnus1cn-6M9hkQy1YBBjvID78BLkoIpyDRle4ehXaIDjkX_Y3vaELSc66A0bPfyNWjUVawXLu2W5PRSe1Xknalj_yXmRaH1PjtWb2jg-k7htUAV9SB0pOdKUzzHNYzIGVZpVuEndY5YgjFDNCGqPLmhUNVc5938bVMezBSKzYvcesVZGhy-LHwddvKnhXuPggCGk9WgNS7igskeZodcsy0hiqkVulFAxfvCFvrmV01E4wh1KMExSYg3rdVl7CkLS23p736_SCW71y08ke1FJL2mWS6yTtJtHcG0t9RA/hls/index.m3u8"
         }
       ]
     },
@@ -94,7 +120,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://117.55.203.160:8008/sunshine/0_V2LnwH9fioFVGa0GUq8AFI1610ACg1XmuILCfFq65LGR-0Ju1zm7-ziF91pyh0HjT3yhEhacSnaoj2I_Qpsa75iz6EA8Wu_mJPhupWSG8NPE3Gnfgdn6lHHBy864fcy00USRwmJEDgdaZOsbnTut-DoZ4DJ2GCvyMKvCgGslcAd7Qnh_nzTs7s-KB76cthIl_2w6Noy2vNzGmg_49DmWB38ewAgQWfdk6yINmm7nrKnhZuXOjMPKuuZntp8SofmClPKEZ1lM2AYtbrkfFfHhD_5dE42VgQCnXjuan9RDQ/hls/index.m3u8"
+          "url": "http://117.55.203.160:8008/sunshine/IWrAUQ62XrgQ8WT8Lw51jrh30CjquW80RS8kQgbkuc1nv_ND-gMDT83yVXyl2OLiAUzwbhwOUoxE8MvUfHEZZmTrznQZaUCJHn8jY4_UJOKz7dRx5SLYSHyMXoh768ljYTqgetAnwAA5_k_fAn9BxC88cGsxNFPtYitBsJ6WHFr0rSy6SCM2tVzKW80Dx3awM3uBpt3_thvkIk7tnm1Roh-uGyB7Ml9uSkXi8PwHIkUtGqNh3atDTWiabXbYwgJs1AA6ox5e5AJNpr_bP5HfPpbeLhBfLhtY486k_2XgoPE/hls/index.m3u8"
         }
       ]
     },
@@ -107,7 +133,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/yhNLtKjUWuRV1esLu3SyvnlgCgttJHG-UrFBtLy_tlWFSYftI7kBZdrde0-HJ9OALW8Apy-sRp3VfYdVV3ju6D2dx0lsu1-1X8Nj3ddNNvsKnZMMwCGQJSmffPUkaS5EOrOOTeyEVvRhIZwTp4GDdCAHztOpnf89AWawXSqQLrEb-6daQvyQJ4AhjKHh4qJQBom90zt-szH2DhF3FicLUorqX33t3cxzTs9kUIVjPPBvcvsTAKDBtTmNltbnbFbDjRJHqMsg9JmJXyrLMnNxXtyFFACV6x5_Faxkw5aQWWw/hls/index.m3u8"
+          "url": "http://37.49.229.191:8008/sunshine/wZZObQ2NLuPIgF2KSWvsteO9DKbF-r2xZeBVXHWbLKw-BB5BWeLfDW814sjQ9gib6CYmbSLzMXR6iO-PcHVfuA5IN9akDtbqqtdzp4lr9MScd4C9mSorKKLG6PVGihJRnR6yX4CeIBIuovsVMojTtTLqvchw9_5aZkUUCIUvQu50lUMmtEY-BGij2Pg-J9bDxjMTU8mm0g9BVj6GcKwCyn3aer-VDikOlg2-BhGhh8XgQK08T3qySPMyLUYxCHRQc8ZaYbEBfiCgEYO6yPRcPz48uYhgaH4SevZ-zXa6uds/hls/index.m3u8"
         }
       ]
     },
@@ -120,7 +146,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://117.55.202.231:8008/sunshine/jpsaEPqM2iTRaNhwT5u3H7qch10dV0nAkbGwR0ehrMKXgOSZVOHkgKD54lPLXmZD9Aish4f13J1lRVRtrXOM7V_BT5frELdqXt5oj2wF2Yx7uyqfb-1Bjgx-h6thOCKxKISAiaCYAT9YVIBmbKyj-hpAZAi-aWvvePG2JoKjRvX7y02SNNpPpiD0zplRfKqsfFxiqp7WUR0pk6o434H-5RsWQVehva2DUoYfg3sLpkymgvJVu5GaPCIco2VtsxaO5_Z9qjLpIcAFuDkSWvo022B-s35DU1smcfwNx8R2ExY/hls/index.m3u8"
+          "url": "http://117.55.202.231:8008/sunshine/ppzKH7djYi6k0JNb2lCsI_QfTAY4RmOoOGxtNphOI_gCqMio98x1Jb7mrtuS2Xl1eWQEuw4L6rervh2xAnOcfuPMwTaj2jbOmKEByjk_wdzRKt7ksZNc1dfFjhu_C7Y7F338Q6G2rw6XRfbbHKQhfvo8x7y7XM_hTz4szAPwoejK-U048Ne7YUiT3jLjyGjmS8Cm39uHav2kksZRb79UGu_kLvF9qD6WPLoyR2XMEhr9q6ZC4VXWSUo9F4Ud0Sy4z54qRcTWME1cSKd-YIOp3vvLEjAXhtBwz-lZZMgSyW8/hls/index.m3u8"
         }
       ]
     },
@@ -133,7 +159,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://37.49.229.166:8008/sunshine/WADyGt_9BqnPnsSdRchiXXeQHDW6K8AA23q2thrKqrAtu33R1PtK3gnOF6VzjElNJF8s8l4eVIM85uUxxbpC3wtLwpKftdHmakv-VSTo5kY7_i5osPkh_fXVPWwNy4UXh8zWpIPInLTHVEU5ebtTOCRys0KZAUbs6DJ2wEwum_nQ0yv2Xdq6GCIUdRrOc186BcSVHMlhbDFetRYoB0cueKnZluSfSEFAPpibK0EEmmbR0BOMyTje3rjQ9QUabHDBbPgdXTH2fMgvxxqtOlgK2AvAUuv_qRIheTnpB2dWUMQ/hls/index.m3u8"
+          "url": "http://37.49.229.166:8008/sunshine/qrfT2NfGNRuXRUwEGH0DkP75NjZcWYCCiejCkhl4K4gIsjGAmZWQylPdGWQplW4B0SjA_n-3db5a-SP4LgvyJdwrN3cD5HqcHwVcza9Peo1j2s6zlYiOCTxbmt3fPkncdwOmF32bAqeoOuFMMqmskOszFlUoXX2W-cHCK-RPt1ItoFVFlnpxfoiyTW2MVml5QLm3daUDE6GMmZgSJPkqbpQh29g-oE721stsRh0B7Bl5lWZ4YG1DPtFfMBD1HWwlJFw_Cy4B2-Gq6eH_-X3i2BqQu9uKpA2WvCOv7Q45paY/hls/index.m3u8"
         }
       ]
     },
@@ -146,7 +172,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://93.123.109.95:8008/sunshine/n4KvgucfB4Tv8BLbr-1XBevx604bmOIcnJzDsyAlBwnZKLOpQ5pGkguu5j5jFz4zPGCt-xx63C9fzgorfSi85ZJtv4SOfHw3ZarnMLVwDYn1IedIj2uIlWADz6sAQkwTs0SAOj9U_z4h4vpLzOYCaS1gba5NLcwSl_8qEu28-Ee9HVxk_IlVwWP6ztYe7aaheXsi4tM7-d6u712-kRPYe7fK2FFvqZqvOQt57ofjwhoENM2uJYrZwZpDFaE5zoi2PqDOA-s8OMUC_df9emKaInOWg9lXl7vUUbFdD-SfM9I/hls/index.m3u8"
+          "url": "https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/x9sffmp75zVzLtXoG2nxk2JAtLjXxidsG-_RwHAY5TXpElHNVv4D6Ah7gfx7FQVSsKwurmzwVwb1TOrYRQE8YOjGf6cKMA3520m7uo7oSTdsm9VoHCwLXiEcOrhZgjlZgOO5dTt3-kKnZnaHeEjUU1zmAFAoTYPzV2YYO2AMv5AETF30LZVp8YZtO2RXV90kyMqFEF7DVn_gd-HgYQh9Vb59y8jmDqJsVloBnX750-ySySulkvK7ba7a9iTRJ6hyomgB9AjLdUGC61qGX6wDO0geBX98CwMyMMHok3NN8Ns/hls/index.m3u8"
         }
       ]
     },
@@ -159,7 +185,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://117.55.202.68:8008/sunshine/Yiu8uvCauHgy_sBvB8lhjS0Dc72qWfwPBhqvKu0bTfQ_9tKZuD85BI0z4PmrNchnpZahUzzehrlVWpzEBe7DR12AZ1D3X6g4mXY1WkVfm1k6HDBs5b1ulswo9v2VMjMIhqioSIITe8Ewj4SdsEyfD-GssszO8fGecWLKfidY2Bpz09o4jxwJDdxWDj1z5SNbeNyWePUPZsbphYZFWh8te9PwD9fKKU2E-7cpcnGVR58IKm0lqChgx6rbdYCZEnZUG8sharQakHAvokWZD8Xq5vWtUHziq1B3kt4hpnBr48s/hls/index.m3u8"
+          "url": "http://117.55.202.68:8008/sunshine/b-mb2TEJ4E-fcMo60gmLEemjJARh3BHIN4gP_GWCLKbQzMmJ0mtb8vQygCM2NFUGpK0rkYk3468m8a-IgLDGL0YQ7mQbvHd9kTKQJLicMvptwe4Opw3ANC3Qufhd51QQlduX_nuoliEBLvxssSj3BpH6M0jtlMplYGVqDt8yb_7E7PNDMgpnZglDLy560wQaQ1UdhM2PBgZ8XFJI_ZxMwxVGv2uAue7aZs0RicEDjkoaHFdjf-dLNR_OfNysZk8NbzAp9JtOltpBUdvIJ24Pt3lYzM99Rj1SxfGYAwUzltk/hls/index.m3u8"
         }
       ]
     },
@@ -172,7 +198,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "http://117.55.202.68:8008/sunshine/-CO-VDT9rNUP9Rne7GApKG_ejsxntSw2p2Rauxd_FmDE-2BRwHvMuJqXtPNfAopKK89RSkflwD3wUXMmTWWAK_L6YyRA5V_tVtNniymZWq5Q365r3dBT9JI5FBi8y9cziOWFKLwEAHM5qGfwNoZZp0IzH6nkDJ6uBnzpYdeAWnadTgwN6rz5VdLosSplIqiLuu0nMej2eVNOr52zpJfN1DEkeWRAwhLGW0JTE6b2fqsYpJ35oi9ccjbxr5j9rU8h0Otv2noc0HhDebD5BiuD9VVPRfScjhToVZxkc_NnwUg/hls/index.m3u8"
+          "url": "http://117.55.202.68:8008/sunshine/Cc-SFmFPq4VAzUuhdVuY_uVHL4SDZGlZa0Ll6XRD42GmQwf4RsYF1e-vvDGjXqUQiZxFURXCcFYRftUH5HG-sh9gJqqlzFaXVmyjDsdOMwOMNKKtKIcy-PF0oo-y3uI9ItLzLcSHmlNnwkqeb21eFJ7PSMu_2P0g4z4EvP_ryXtMsvAB5HtSYiUK55MpYqi5Ui4Tein3yOBk0xEQlAfVsQYbtMV-zRVKyHySGRYqRqF9s_uV-XZeJRXK1J7gDLk1J_23AU_ThiN_V3-NLwZlP0vWoks5WHF09C-wwCKAX88/hls/index.m3u8"
         }
       ]
     }
