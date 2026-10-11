@@ -1,6 +1,22 @@
 {
   "channels": [
     {
+      "name": "RSI La 1",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RSI_La_1_logo.svg/512px-RSI_La_1_logo.svg.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "rsi la 1", "url": ""}
+      ]
+    },
+    {
+      "name": "RSI La 2",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RSI_La_2_logo.svg/512px-RSI_La_2_logo.svg.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "rsi la 2", "url": ""}
+      ]
+    },
+    {
       "name": "Sky Sport 24",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png",
       "group": "Italy",
