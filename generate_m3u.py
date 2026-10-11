@@ -3,6 +3,7 @@ Generatore playlist M3U - architettura provider.
 
 Legge channels.json, carica providers.<nome> per ogni stream,
 risolve e scrive playlist.m3u con URL diretti.
+Traccia lo scheme (http/https) in status.json per diagnostica.
 """
 
 import importlib
@@ -137,7 +138,8 @@ def main():
 
                 stream_status.update({
                     "status": "resolved",
-                    "url": resolved_url
+                    "url": resolved_url,
+                    "scheme": "https" if resolved_url.startswith("https://") else "http",
                 })
 
                 status["summary"]["streams_generated"] += 1
@@ -207,4 +209,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-  
