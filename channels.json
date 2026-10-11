@@ -49,19 +49,27 @@
       ]
     },
     {
-      "name": "Sky Sport Arena",
-      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png",
-      "group": "Italy",
-      "streams": [
-        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport arena", "url": ""}
-      ]
-    },
-    {
       "name": "Sky Sport Basket",
       "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png",
       "group": "Italy",
       "streams": [
         {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport basket", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Serie A",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport serie a", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Arena",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport arena", "url": ""}
       ]
     },
     {
