@@ -1,5 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="RSI La 1" tvg-name="RSI La 1" tvg-logo="https://i.imgur.com/j8ogbli.png" group-title="Italy",RSI La 1
+<<<<<<< Updated upstream
 https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=rsi%20la%201
 #EXTINF:-1 tvg-id="RSI La 2" tvg-name="RSI La 2" tvg-logo="https://i.imgur.com/vm62h3t.png" group-title="Italy",RSI La 2
 https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=rsi%20la%202
@@ -31,3 +32,68 @@ https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=dazn%201
 https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=eurosport%201
 #EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Italy",Eurosport 2
 https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=eurosport%202
+=======
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://109.205.187.150:8008/sunshine/3yJEogT6tFfERRcurKsAHqERPgoC4r8ykRaErgSwJYuXKmKyZPd9bn90W9ebR4RX6jGM917bJBVgcV781HRHmV8EZRtaebep9bK2zPGL2N7qb7pquuBBqdbfBcYu1rPSu_sOD0Dkoq0xmHZeejFXPwSDrWZhQTprUjuApkvWfncZoLOKpf1RLG4GUYyMVm0f-LMgxFjfiF-geljdCt57gA6-w-gxN63FAUaTfudDrecV6hBpDAVsPfEDmTWgQPpk-vaOWZGPEXJypRONqMuNwMvhlZvOJ3Qv2uK78JyWygk/hls/index.m3u8
+#EXTINF:-1 tvg-id="RSI La 2" tvg-name="RSI La 2" tvg-logo="https://i.imgur.com/vm62h3t.png" group-title="Italy",RSI La 2
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://109.205.187.47:8008/sunshine/hMpKRGgYtebkL-XeA_K8gaWWYiEa-z3cvTy37y2rtGMdJT_37xMDNpwvoQ1MR6QAk7529FnesIwXiFyFJBXJqihZIWczfyUPn7IIZwNDoWTbCL8FLJdE4inPtTeUX1Zly7NmE6v02GyFK62CXL0PH6ghEATP-CYj7tOpPqcrf4dEMQQkb912VWywMTXmhnBont4qLx4wsJo50tTeSxHFpQddYjbhcIhUV1D4RsxejkP7xUUOnTK55IjE3OwZ0Ud8-FlSELNKl8_rezEu4Y1omTugRPG9QlgiJrdLw5Xqamw/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport 24" tvg-name="Sky Sport 24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Italy",Sky Sport 24
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://109.205.187.47:8008/sunshine/0NsdyMcT3OKWJKNVPSaVN2vO1ueu4hSWV-VSAbIPltxqYRki0e80I8D4UgRiJrqtzAmfLhl5IK9OdAFw9bJCTcoclDHJCz0vtvyv_jE-UlHXhPP65JvISYcB-Mpd4Qg0vRaQs1B1U9-m2oKeoOWYS74UYH9fhg8YD2iraE4QXmjFJzLa6MZA_JbjYL8wTD9D7LzhC9tWNoRQFY7eYiiiJH_knNBBJvm_MANVdo-u9KCgkwdaKTc-1VqupBBPFjAm-H_Ghc4b4vBT2NHV4Bu-az6U0UamY3FrKqOe09aL86A/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport Uno" tvg-name="Sky Sport Uno" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Italy",Sky Sport Uno
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://37.49.229.191:8008/sunshine/nh8kZ_aozuQi_rsVbtRZBOQd1kwAL_DWYbjPnx5UFKwEIxt29v1UE9226rzaJouZHX8dQgvxumOYPFanK8Tb9uEaMwaC-t8phZkcrQw7V9gN3BHbJvJnqo1wcryLAa5JWyUDnx3BWLBYNDaRrJJ-U_RT96M0v-JLimBTdOAgC-MxnCynGUi7Wda-idPjqN_O9TKoc-U6rHgTUNYBMcEKcOKf3B_skKTTPPszeQ0G1wfEzeyhSn7vxwMUZDgw1W1aOfudIw1yXGfrpS9bvnZavnS6N7o6d60pTAG-MEDTBpQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Italy",Sky Sport Calcio
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/UV0swaq3ZFTkTzHau_BJGjRAiRoiaqjl15hQ0w2mn-nZ8SQTD-1qFKBofim_KhVquIT3HdYXKkDcGDvIeKIKCYViXzo279Kq1iPS6trw6IbuE5mqTWrWd0Xo9LQ-OiRpIggYie5nUXWhfTGkowIMxvgOSPFO-zG6OBdwuvvAs-OTQvyc9wE8bO-g8R2QI7v6CiVJ8a_1byqVAtOeHSCyyZKG8GUkk7oQ5i0BIpkSWp_8nE1_S_y1TL-c4GNPrSfXvH8f4wIWSYkCB_wHV5-ZANe1mpAXCpZxKQO1_nxFdP0/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport Tennis" tvg-name="Sky Sport Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Italy",Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/o08NK7HJhtd0Ov9HyfijzWyy7JsKb3IAWyWJd3RVSJgO-mnmGzDzlekQpcEXLFjA7Fc4IkfrlvumIvzR4IRxKmRffscsOCQ9wlYMWHGHNppYXDfKAsVfHtdCfNFE_Q3VItIYvEf22e2JEa503mXQkYGh0ZbHVBp1LB6GwY-iFMcactRimaFmKM0Ozw9mBVBGQKN3YZ4AoP3-_r59DeALXrTdIvB5j1ysnJYA6F0JMy_2UAn-r0YpRq49nyOXD3tsfvKzV5nlQqWkAxLbxEB00MXIyVJFrlp1BfSG2dJ4Luk/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport Basket" tvg-name="Sky Sport Basket" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Italy",Sky Sport Basket
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://117.55.202.231:8008/sunshine/FqqvEFn4jPOCRW9an1dwInqGenbL2ShlrgrDpi8SPoRdDlqOuAYNzaRkqint1_rp4Cjjfqoh2EIqp6xTxJx9u99Poqxj6x-on2RioXXXk6f5j_SozqAlhzkmuhnxFr8i2RrX3eNJB6eN281qasv_T2Tsa07Tl7YBTjS_AfA3IkqTasohwKXlqbRZembEA6TqL4K4OE4wNv4dw957nGWZiamDVs6bGeJ4ga6dXMAxutix-CAWvVoBnXzsAHiTI-pVUXV53HCcz7KvKWObd8Ll3EVV666A_drJT-vQgUdF7xs/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport Serie A" tvg-name="Sky Sport Serie A" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Italy",Sky Sport Serie A
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/qN8lhOVQr_XQYBX94cTCkgazI2-XEIVdCODJgu0ezqjrcFPHmXnvn7tNYUH6TKLe74AMjMRTP8rygvEGybcK7L5h8MCGiAxsMzqY1ZDiHntjkVpxnHmHB0gV5mHEi1y8_BCdIGOGIJVUP0VtXBwymllma2e1GTdfs96DfaxWreoIM7WQxTqUojc8Ilhc65o68F4MRS-IO6tHvCxTRhuPB8ATBlwkjeSyC1NDXwnYziXrL51zUx46hxFbsdmX9raCS_guXDrPd-XxSE6MSFU3xyzet9t--6Zi6T9UCrcRJUc/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport Arena" tvg-name="Sky Sport Arena" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Italy",Sky Sport Arena
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://117.55.202.231:8008/sunshine/LXg901x4wfgUgsYjLWr7_L4jw0-hAnuEBWL3yztzuOceqEQ-UlfKyATQdlD1u0JbitOouUk9TkgaL3IX3es9Hg20_P5qoP6KUlLe0-33mBfhp_ObgxoOmDnswSUtWbzBvngMcumS5k-O9dTSaFpoqzRjbMAnV2XD5i49ZSZxFVTFf0QjjV21EJxzRpBNcdQcoBQb37kXS5o2xKzI7TiWmsvq9SO3-5CQKSIppr-RCVBbNx0NvBqgqE_DKD39JkEVyJ5Ol7OoxcP5eezJXoE3O1EIuruSGy-vhwUU0_ftf4U/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport Max" tvg-name="Sky Sport Max" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Italy",Sky Sport Max
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/9Kv6CWVwF5p0LPEhmRLqUvAU3dl2D-jguoUn_vJPUARqhxrWfokHf0s7zRE7QnOohPlL38Drn0ov5C6rEMiYIsSreUM5cj9bduBBNCaDHPkN7eacGu7hbxOB_EHZ_d21u_6du81YZVAPx85T7V-NdyqfVtCvJ1lh8UCgOnErSQ2WWNEx9eLjGpP7JxzWLcsEUsu_cK1Y0-BcTeYV7_2dSjYGAnRPOVHo6hujq2FOKhdegv_fw4_lnHLn_w1kl5TwOGe8kUAu4r8GcWXkPO4b2Z7edarG3TMiduIw3RXYUXU/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport F1" tvg-name="Sky Sport F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Italy",Sky Sport F1
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://93.123.109.95:8008/sunshine/1p0lqof9lfeog1D8ouCb1h9_F-_k8ty833brBd2Yh9wABPXyODcmGQ_CLyqdr6GUmo_eBUs_wLpmvvJcuf_S_IuTktyaXBmSCb1dMm1SnfxcW0PoJuJfbFycVHe_sB1VLUKnm65RtRk5vMJBGg1THKpF7Lm9Pku5QZZ_I2JkI-XPtU47S7WDmZd615fjL46lg25Eb2_K_FFLokivM8M0mAbLKxK7Pcem2ixNfT_n_dSj5mqpvMmOvy_mFk5DDLfgp4tcPt4Ktm0QpUuf6fgM7yoRn3N8uO3hgXR7hw75d60/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport MotoGP" tvg-name="Sky Sport MotoGP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Italy",Sky Sport MotoGP
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://109.205.187.47:8008/sunshine/RITvozL84G1VR-xc2s6MF0P1Ufma6kbPtHD7WfcfY1gwRl5eGSVnmAzAb-wUx781o-12bcuIjbUho-dbFs6bKAT6qksLWZhB6D-0cK1pIY2yjRi1c-hyPZNJJoPTyzosbVwUEsRNjwUfkPBpgXNTcehNrJC0vu5skf0YutlsbWgw6BzoTIlGSFfjGdM9akdfF4rhaS8FO6-GWumBSIFIOIxp3mR68WCWv88rn0DTFDgepBOc4HtRH-_7VohpgGtnNQqTGrRIqBRc5_3tW6NpJdKZeoz2T9WLQBFKn0EubD8/hls/index.m3u8
+#EXTINF:-1 tvg-id="Sky Sport Golf" tvg-name="Sky Sport Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Italy",Sky Sport Golf
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://109.205.187.150:8008/sunshine/e8vs3SUiQ0W7cGoAhaFhmcJ_RrJmqzWb-YsdkBVqYwq9lGtZxxjp9eKCHOuvL_sZoj0u__sFpjmmAvwIb8NtLgrDzc414Fs8SluB6JWukllF9xIEzXURRhokt_AlkPaJa-YkGn_QfPdEsEZ--d0Xj_0SKddZHHaU5RzKRrtNm298JOJ-W8Gh7Nb4KzdUNCaFqDHjmDxaGwWpNH9-Dat5hEIt0idYtgGs6RpghWZjusl2-bkFEUubAoMB10iEapyMPdovZNFAU-6866b8Y1CxNLomdjN7qAZXJR4iNBFbr00/hls/index.m3u8
+#EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png" group-title="Italy",DAZN 1
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://117.55.202.236:8008/sunshine/LpLpT3onWHBrArZjvPzvv3bpSr5R5S5jcWP1Qlns05Srt95fcvdTSMwgXFoILQetdk__SkeviaskBsqn7thZMesg4kbstrGBIKOWDjZQH-LZ4wMOGerhvXyJE9wr2bBdDySBurwVEBzNq3XXPjLNR3OqPxRWlLnxswVxuloPjeAP58sTGSU0szo_8kfcy_qv5sAOXIyI9wtoLpgfD_2ejzlGAIWQ5JtcA5Vze3LXdnTmv4qLUyLpb1cW0ab_3javDt_8jY-wcYK4SShbHUH_iJfagwCjzp1C1xW0qb-6aOU/hls/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Italy",Eurosport 1
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+http://45.148.10.140:8008/sunshine/qD17986jmMe0S_zP8GpGV5lXGbt9h0d2odq5_ZAlcyHvDRnPnXV5nJpyH4VSWIPrUq3KMnLYdwOAuQxFBvDxS7i9mfJOOcafzOAUzrA05LPNiO0k2N8u5fA7e1t10SQXLWZYQC5VO_-cw6UVo65hdxGwlKXPhLYw5KY0j2CXOf0_nA0Lzq6OM3fiSS9fNQ41fUXQOuWf1OJtjYpMunCJOpzJ4Vraa9WslM_DY4RCfuLD11inxPoiQIFaa9oO8wpqD3PwehPi0qu_70UOPiKarmIPwiCjQBCqTk_quCkRKUg/hls/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Italy",Eurosport 2
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:no-ssl-verify
+https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/xpeSgKQkVjmf5f8w_scp0eCBllBz6ZEeRqIo30G1qGUeCFegJDKgMTYVEESs-MBYBArrOda0ZS5KUaVYEQ1oAkT3iaswtRGLwEgaiYTvWL4LLz50YoEvpriwEGYnP_WW3g0HlGcmLhrYBIiRt1p1U-qGnm1-aOvLTczyFc2bMxN-B5U1CxRADjS8CKy2UIjSq0NPMnYx7n6PUukmHCm0E_lA0KISgfheWQFV_-A9EBypRq0uD8xHXI0vlNihV5yt4KKRoU9H-9nvcELRbmynitLlJdNi6NLQW7ewD3DuYN4/hls/index.m3u8
+>>>>>>> Stashed changes
