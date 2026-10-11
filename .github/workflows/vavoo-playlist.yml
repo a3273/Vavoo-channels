@@ -1,9 +1,9 @@
 name: Generate Vavoo Playlist
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '*/30 * * * *'
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -25,7 +25,9 @@ jobs:
       - run: pip install requests
 
       - name: Generate playlist
-        run: python -B generate_m3u.py
+        run: |
+          find . -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
+          python -B generate_m3u.py
 
       - name: Commit and push
         run: |
@@ -35,4 +37,3 @@ jobs:
           git add -f playlist.m3u status.json
           git commit -m "Update playlist [skip ci]" --allow-empty
           git push || true
-          
