@@ -1,12 +1,12 @@
 """
 Provider Vavoo - API ufficiale mediahubmx (senza proxy, diretto).
 
-Flusso: ping -> addonSig -> catalogo (cache per-run) -> resolve -> URL diretto.
-La signature si rinnova automaticamente quando scade.
+Stream instradati attraverso Cloudflare Worker per URL corti.
 """
 
 import time
 import logging
+from urllib.parse import quote
 
 import requests
 import urllib3
@@ -20,6 +20,9 @@ REGION = "US"
 BASE_SITES = ["https://vavoo.to", "https://kool.to"]
 PING_URL = "https://www.vavoo.tv/api/app/ping"
 SEPARATORS = ["➾", "⟾", "->", "→", "»", "›"]
+
+# IL TUO WORKER CLOUDFLARE
+WORKER_BASE = "https://vavoo-channels.simone-scorrano-2011.workers.dev"
 
 _catalog_cache = None
 _sig = {"value": None, "ts": 0}
@@ -217,17 +220,15 @@ def resolve(channel, stream):
     query = stream.get("query") or channel.get("name", "")
     result = get_stream(query)
 
+    # URL corto via Worker
+    worker_url = f"{WORKER_BASE}/?u={quote(result['url'], safe='')}"
+
     return {
-        "url": result["url"],
+        "url": worker_url,
         "provider": "Vavoo",
         "quality": "HD",
-        "headers": {
-            "User-Agent": "VAVOO/2.6",
-        },
-        "extra_vlcopts": [
-            "no-ssl-verify",
-        ],
+        "headers": {},  # Il worker gestisce tutto
+        "extra_vlcopts": [],
         "proxy": "direct",
         "proxy_required": False,
-  }
-  
+    }
