@@ -2,7 +2,7 @@
   "channels": [
     {
       "name": "RSI La 1",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RSI_La_1_logo.svg/512px-RSI_La_1_logo.svg.png",
+      "logo": "https://i.imgur.com/j8ogbli.png",
       "group": "Italy",
       "streams": [
         {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "rsi la 1", "url": ""}
@@ -10,7 +10,7 @@
     },
     {
       "name": "RSI La 2",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RSI_La_2_logo.svg/512px-RSI_La_2_logo.svg.png",
+      "logo": "https://i.imgur.com/vm62h3t.png",
       "group": "Italy",
       "streams": [
         {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "rsi la 2", "url": ""}
