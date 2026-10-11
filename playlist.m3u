@@ -1,65 +1,33 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="RSI La 1" tvg-name="RSI La 1" tvg-logo="https://i.imgur.com/j8ogbli.png" group-title="Italy",RSI La 1
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://109.205.187.150:8008/sunshine/JOInawteFDptjoV2m2o4704FWVmUURsRgvRdaw5NUnRHupZ2V7VUU83QTvYBVy7iQ7gJTIDpeQt5coIa-hzgn-AbVUZY463Ok3KboryZ5aFI4Sp-GbxPxd-YkbWbjWQPovgSvWjcZh9urqYhVoJ1ouRpi2S1Na39kK0PLd1cAqyNvHzj02md1p3eJv3SjY5U949LWzyTOhaIUIiN8qMF4cWWAoaZoZUbrxClIQh3-roY19FEukN1cz9MsDV69cgL0ChfVp6PNCh3G5b-ruOxGvAeABFuXWFDFqDTjGfqXAY/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=rsi%20la%201
 #EXTINF:-1 tvg-id="RSI La 2" tvg-name="RSI La 2" tvg-logo="https://i.imgur.com/vm62h3t.png" group-title="Italy",RSI La 2
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://109.205.187.47:8008/sunshine/EswNCgEujWC5aeuzkrlxoZJ9EQ-5bPHXGDH5RFiJBXPnDSasXxQxuMGP8vxkHMP8-fHZdSKli0n_1eq6IGt7x5RE5EOUDwxZeXSs2JWFvdIcqURNJBLAOX8YaS9SnwVSRac1MjwXr91HJHtuPtNyZ4JaXvY2mZGQROFsUT2WtV9VyxSkw3y5TCzcBnH15J7uAVfOgGyed33M0GKgr80JYIIbynUsbRHqqqIlNV3A_Z6V5H-eiRZ5IeZDgWPjYyO4HYgORMzMT8JpyWMll4WFp93bABfzLSzC27oY4_bcrRg/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=rsi%20la%202
 #EXTINF:-1 tvg-id="Sky Sport 24" tvg-name="Sky Sport 24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Italy",Sky Sport 24
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://109.205.187.47:8008/sunshine/qJWtCZr41hzi1IhZVOBPJ4ynWSEcZ8CareF48pbXmPAyyWnoiv-iMN9WVEzYWLvdyXUhL1pr8mLU-9wQaOwzknHbfbr5vc6C2KV_85kJc9nWBheA14mQCC9lkhYEOqTsrrHTiFMRKGKLSyqZEYRN-kSUUxnS5hiH6i8C_W5BRnL1JCIHdSKqXMie4bt7Ef7z0NJ_zSVGCmKYDvn5E_-Tyg5CdsRl09q_x1jV6xbvUvAWH66UOlBu63NS1rVPpiUA8SUhKVweo5DsPCPvJUWk3cbuWyycNOTwB6-Z5VTj5Hw/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%2024
 #EXTINF:-1 tvg-id="Sky Sport Uno" tvg-name="Sky Sport Uno" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png" group-title="Italy",Sky Sport Uno
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://37.49.229.191:8008/sunshine/0yXFQX7DzCrOnVBzJCg1YgPifkAhsmKsyjhRWsmD-0nPKjaWWJGu3hfFyBv_YMX4csqNkp0UvGU5-_De_BP2mDO2k8RMpbsMde2NnEL1AzfptJvSqkdETHZaRbY0rXbMQbbXj0kWDeMA4KJ_065wzMGTwCwhcdgqZpMhZNw63Ye2e1AP-XKDa-E8TgTNW3l4pSr7IZtydTe3hwB9aq2nDa8oDKIU-kiILLRPsyIhMFxgOsFsqcTjenP4EN5fXu63L0iyAby0bU04PBLvwEw-hh9GmPY53o5wm5dR2sHBGaw/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20uno
 #EXTINF:-1 tvg-id="Sky Sport Calcio" tvg-name="Sky Sport Calcio" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Italy",Sky Sport Calcio
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/LaZ4TdqGeuPE4dcRrKvCg1hwJyIdKQiRjK_B8SFBz6zSXY8lXkRVSVWvuDb4HGulYTWkb4hN5TvGaScxKl9C0UyEJAlrLeKLBTtqUyCNIulEDQS6ygKm0SVYRmWj5x3AmtnBWjpANXXYmmdrN3UmjzlzLmK6Ym0XwX1RvmAiX3fgPli4-eCCaYJZ1ysfWRi6OMCGZ8PWJgUD8IUWRP9IVZ80wgfHVvVDuMWELwOMkfSV4DMAP9jSXowFtshn6Xdvn6heJqxD13iPDIG7YDwp4r765yfjSpe9UahEUgzjawk/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20calcio
 #EXTINF:-1 tvg-id="Sky Sport Tennis" tvg-name="Sky Sport Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Italy",Sky Sport Tennis
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/LEIjSvHQVPadqwQrlpJDWno8n9YmPbAG3Q3dA8GXB6T20ap6A81NkA5-WvYdS61GIiAVQN371AEfsiJ9bYSXwIuUeE-ozww7XKIpLZj8JkOve9FNqsPUyjxrQ_387dzc7f5q3sYI6m-dipaAGWOUe9pTrKFnmGFG8agoaUMEzAjq1PiEt-tfMB1wTHchkbVb7KwwnHjzLsEc-R7uKN_Ad6Zw8FRgYAYFQyRpzzgL7iOEoJJO-IcjJmXGXmEl2GwWrhS1DlGiDgP_70cz9RtiPutjx-Ctm5G4FWpbPTunaAk/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20tennis
 #EXTINF:-1 tvg-id="Sky Sport Basket" tvg-name="Sky Sport Basket" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Italy",Sky Sport Basket
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://117.55.202.231:8008/sunshine/zICEvmdaaV_LI1XchM72qGxA22c96bczxXf6HeCi6MRKEie7fK2QXckClWRnyxwkbNt12gfcuO2wjIL8AoDg6BdL0kxC673kRWnB4CBlQthug5MAJbHOYFlmPgHCax0R0BLrrEjHdHyXn_ruZdk9DRbUePK63WgJJtt7ld6i1bNkI3AeKKdIJdie_F7x_81AH1CTjYAYPraScpVu1RKknWuLn656qKMNc91xRaymZyqsWgGANWhox-GQoEHdFUjHg0veUygcJHAj15sx7qtVmXxPXNi4HKFFdq9CLdZF6WY/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20basket
 #EXTINF:-1 tvg-id="Sky Sport Serie A" tvg-name="Sky Sport Serie A" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Italy",Sky Sport Serie A
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/hUAUQQA381V6ynKdOc6BxQuLx2x9IOhQ7sNRduMv_RXkt5U6M07KrWPbSPcZD4PrxhqgST9OPade9S2nzDjx3JSUmGVuaAYVzDuUVUlv-GKuDu4gyUOxZ0vrgdI6ENAqNtCGnaXT6DTdxEsbjFEcvMem4wAdBJrmBRkCWgvK9ZUOtoXrbYuJBktm8-DlsZ9BpqceBx3m0NexuIQscNQt245cVwROUzQ2ulhh07ICUrTV5dyC3C1E-MlYLnGicbQyLrCqXcHXGEMEEs-8kMSjdRf1MIH-8sX04rBSPCwuOnA/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20serie%20a
 #EXTINF:-1 tvg-id="Sky Sport Arena" tvg-name="Sky Sport Arena" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Italy",Sky Sport Arena
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://117.55.202.231:8008/sunshine/P-m0jJHzR_dhTApdvwid1Ow4I6VLk9NxZ9-xY4NVnEPMrsyn1uu2iaesEr8AUFAoTmO77ZPLuxpWlRGW_b0BTlgpgpzunNSiHQR_DwceFpD0dOArtdiSMuY5hswbk3pH7iNzh7ClfkB6_CnvgDp4OXaNXVvdJ6TnfVDqZIdjDcHSLUspYDhlj7-e7lRbessJE4GNez60Kiy3h3p2y_FUsRE8j2tq5QvmyCqmy3KHMVI-hJExUP99c7LQJBQ_l4RWsaCKubz_vFOsP5sjOlhXs4N6GLmHJetb3oWgGMJzFjY/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20arena
 #EXTINF:-1 tvg-id="Sky Sport Max" tvg-name="Sky Sport Max" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Italy",Sky Sport Max
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/kClB5ROZn9TI9YEHqKwL4i7DGv4ekcRukxAGcDeqINETcUKbtaOHQpTPIRMO9vh2-ojnfUO4ZsMX_SnSp4GK5UcH0CKMM6f-Iy33-cyw4rMk3LW70IUheTDfOY784buf0EU85QUioWTMq2IWNXaI0M-ZwydclEIMdr6BYFLcjF_hlK29_CiWgBCJmRuTunZGN9camCBSDNapk0WaiHZtduvDbmCP-R5jIjtHn7yJAc1arLoa_yQWjybWRCvQGvOi7GcT9xIrtEH-H7HAuS5wmfcK0qpncIKWWxP13Gh-aUE/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20max
 #EXTINF:-1 tvg-id="Sky Sport F1" tvg-name="Sky Sport F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Italy",Sky Sport F1
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://93.123.109.95:8008/sunshine/1gCine8GebC1WJjE_bHAOwqKS6a9RjerFFaobhe2BEy15aWpnN3i_my9vqC9NMLgrIGhlVI4pGQzEztWS1h2LhfsFiPCQG7B0LdyZx7QFFhJg9nVHq6exbvK7ig7k-B5dV2VZAZXhHCdah2ag0hVwH1Z9sZjposUSLISJ-CVEIMTvjIcViSDKQ__81y1dVoBzn_1GZOsqr1QFfdz9RMIYCChlOqQq-5-X725uHlt86Q4I_-Hssb_pMnVCaWtpYoT5lZPoAfNKClDb4plKS1pVPscHoo1egV0Qjp8v3xr99s/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20f1
 #EXTINF:-1 tvg-id="Sky Sport MotoGP" tvg-name="Sky Sport MotoGP" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png" group-title="Italy",Sky Sport MotoGP
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://109.205.187.47:8008/sunshine/n9CGJkaOYcqA9972MtsxcH8C5zV0VNraoaXuQe_kIjTeTWkNCB1j0WEtXTMTqNguREb0qnaW57do16G0yZjTVO2RF7wUSbZY8shqvonlz8QtXnX5QW5neeIVYEYOdNsiUqE3Kz2QgkR26mUYfnultSDBALqxMyxmETUUs7965fpBCTn3gBMW9PupO5jsjry6x5PZ9YwvMwOUkSPW3KwHr48j5F96HRewxMRbuYW0gIGj2RqnMTa3WER87oOyBJrXpPbWIwdcLmi37CKFslpXRcynjHkMr905fSl1Xir2F_g/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20motogp
 #EXTINF:-1 tvg-id="Sky Sport Golf" tvg-name="Sky Sport Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Italy",Sky Sport Golf
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://109.205.187.150:8008/sunshine/6Fycgoc8LMCwQtJulfzhkdkK5GuUkhHUbLCxcvGk3u1B_33i8iW4EXSR6NJRSTIbKDw8wA3AOIetTcYXR3IvCdxz6jlF1u7XzsEN7XmwzEil-bX5Q6YKHKiLNHw1M99DkTpUkGrVC9j6qcwjyb-KSgyaIkQyf2t3OuE_QKJ_v9CsTaM4JIe5TDoFeXXf08s_sHdWMug0YYg6Hz6XIaJwWBeGOjgcypad61Kd8u-o2jJBaklYc9aLNmErf6u_WXoPFE-5d544BMFPA4YWmpvKHHXOBF0z1EZ-paaSEH0wyXc/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20golf
 #EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png" group-title="Italy",DAZN 1
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://93.123.109.95:8008/sunshine/nBPMazIk-U5Sxcg6kOa8V4flfdz_IpOcdZ3aDFhwG8yJWUihll-3qllW8IlCTYSpHpR61Aj8w42WMj6S4H4SEnSSHKd0dUWbX63QTIW19sVEsI5c9cEr2r4eZs8Gz-4JGWkf4gvYu2WAKv6oBjMccYl6pnlbjS4Lo269jLnynB-pv5hpb4PBIGZxkRVkGUvmN4XZLHdIPvY52-KatuB1wUXOI2VhSZfEA1PwL-S7Fp6sh6i7CAjzxtUA3Xv-3PcrJjX6BT-2hEVMqQBf783vNPhrGVWQVLta9MCn-0mlDKE/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=dazn%201
 #EXTINF:-1 tvg-id="Eurosport 1" tvg-name="Eurosport 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Italy",Eurosport 1
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-http://45.148.10.140:8008/sunshine/REH149-paWChZs1yU5dkDEGqtxNbhSjkWd8pW73XnH8JsJcRf8kZC6SOWLFcB8LUcsPoZODpmIo8o32DpwRwcllfYjY7xNI3MplsCCei6JLqApEhumHDTlel0Thlgx6-S7t4WZW8firRedpg-fuLtXri00kYDcqW1xcMxh4t9pUf9ieEOZxsB0f0p3ewTK4ZkcDNLyqoV08uPXGLVfvoyOmb0f8JIL05SgnRpxCqm7IGtNh-h7El0AayewN9lHGswmv3ki4JgoLoSGRrKfO6KNun24yIN2t_4RPhyGZfrIc/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=eurosport%201
 #EXTINF:-1 tvg-id="Eurosport 2" tvg-name="Eurosport 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Italy",Eurosport 2
-#EXTVLCOPT:http-user-agent=VAVOO/2.6
-#EXTVLCOPT:no-ssl-verify
-https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/v-gyZl-7vI10QGUqfUcyznCZSn-k4UwfbcFeTDLQBmUit9T_5Y-rgRuxBDS728Jsif9_HlhAnZJDcQ-KbWOrMBvt25VkwDxGxuzY26J9g6a8CbyqVvnpg2Bt_Yf2sP4L0P_OVQGfe6PvsWiwQRHqqzNV8sRABMVJGfy3HQU2AfCcq-8stzz2gXcOH4wTZzR3bOqgaqb5w8hCkUyeVwbwwVgAS_4qNqzs-5dYfNP5NkoPdI6OxQagFPE4Bvjg7sQvvpN_sMlg7_I2_GZJXifG9r4FPmcqSXO2Q6AtZ8Gk4ag/hls/index.m3u8
+https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=eurosport%202
