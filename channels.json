@@ -1,0 +1,108 @@
+{
+  "channels": [
+    {
+      "name": "Sky Sport 24",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport 24", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Uno",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-uno-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport uno", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Calcio",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport calcio", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Tennis",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport tennis", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Arena",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport arena", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Basket",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport basket", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Max",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport max", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport F1",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport f1", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport MotoGP",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-motogp-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport motogp", "url": ""}
+      ]
+    },
+    {
+      "name": "Sky Sport Golf",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "sky sport golf", "url": ""}
+      ]
+    },
+    {
+      "name": "DAZN 1",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/DAZN_1_logo.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "dazn 1", "url": ""}
+      ]
+    },
+    {
+      "name": "Eurosport 1",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "eurosport 1", "url": ""}
+      ]
+    },
+    {
+      "name": "Eurosport 2",
+      "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png",
+      "group": "Italy",
+      "streams": [
+        {"name": "Vavoo", "provider": "vavoo", "priority": 1, "query": "eurosport 2", "url": ""}
+      ]
+    }
+  ]
+}
