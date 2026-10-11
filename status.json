@@ -1,0 +1,180 @@
+{
+  "summary": {
+    "channels_total": 13,
+    "channels_enabled": 13,
+    "streams_total": 13,
+    "streams_generated": 13,
+    "streams_failed": 0
+  },
+  "channels": {
+    "Sky Sport 24": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "http://93.123.109.95:8008/sunshine/Pl8poENW_6uu836DfUa-BHBaXxqPVUHWkcPLVO_TEPF9YRwD2x_OI9B4Jav1gBlFDQFdA6OFXkdhUAGYsj-BEEMkxwnqg1hRTSUp-gZb8-RUkJZ8iLUnI_TfPG8rVQP79prlnM0kqMY1I3mhrSaADr5RHKVeNZhEFeqZZ7REUUoTidxORPKNUofByEBP5tYSW7apHwq1DwPApSOra0h72sHPGB9lqsGb1T54yIOwzCz019-HQBzk2vPXp2hTGYFcdI4G2r2F0_iY9ngTy4sCLyrw1JC8WCx41wdJTr0pY_s/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport Uno": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/QTVkP74l8vIiF0wA8_vrX4PCeooTfCSNhHKkzLcM7XWMM-7ThgAsLmYFPMUIzDtQMOGykUWfDe648BXHRd00yA7XBjkRenyEeWHETfVWjepye8y9s_RfCIsG9uwrA38U5T9hx96faXnhYt-U0THhYmq1esxc_vt8UeNh-AbIrFsM7vXjKfjLn7zKDOjjSiaWb92wchDGbZwYsgS1DQkCNSX_gdWekf5t5rQB5C1ufGt6yaTBa9w5GKql7oFL8cLlfpejnFmw-v2ZcS_pXCpu1tI6ZCoqQA-ALDJ2AlLQFoI/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport Calcio": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/13h0RJKOkh6pCNN8v3ynwxHkKxk9DzFabAP3aOj-TsbBAXeVA_OSxzHV51LPGZR7Tpuw6-SrxU_tde3DTItsdSYKmUqUmEkRHl19bb0xaqeX-QDBwZNAQY_B_eBpoqMfv9W4yuajbWnKvCfgNvKaps37SE-7dlHR-qhTc0HzED-p0Ss9rvlErhC1co4zn6fm4lMECGU3XYZteWF927Dny-lJckAw6VaiT1oyur80dsHEadIcIPQH85SpBt_wZcOp8Tu4fw4i4_PIfCZjK5XxufEQdjR4rjZmTbYsbXfxiXY/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport Tennis": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/2hxFs9juDVum1xxqIkMtxyKcb-jstEnw7jpGQmygLNzUk6pJFH_FReL6FG7x3WOibnypskXTGQLftIt58C2QfA2yx-Yp71JqWTJ8g04GMB9aNy2oPlVSoM6WvCPt6dWLDq-xoG9GD4Q2DlmcpNAmoYFQuXJEjJBdqSAJONN6fcF2ffCPsouKtxvsW_yfkJV5PVKByhIwl9UeFB3kVBPcgWJqTnTmqGh_aHoyQnrhNznj2foXq6MYdRM6CnWpUwmLsa1K5QJOh3rOBG6ksI3h7IsSRfJKTglgnXnXyt959M4/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport Arena": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "http://93.123.109.95:8008/sunshine/-sPueWgoqie3zdUvwCK923gZGieb9zXwdxYQZrcgNaKXbdbuSgQFmR_uS3nWo4LBPCDtF93-4m2qgy9a2yhN32qDESDmAWTiHyNboFh3jx3421VaWAqi0bV-y42dSF6jGYFiVccQ5HQzFnh_5Nki9zdChtliIlrIw9K9dgADl5m-7TX0KSmEbfWL6gCZqNbOIPeWr3PpK7YHdx4IddZzsy-TrGqsMFOtm2p7pPlsUKJpdcXK9j4jsx1shVnFEbvKk68fP4QN88gJp5uontboLBehX4g3UgeXIzVujNnfxg0/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport Basket": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/c26Uhmdx909SRXS2TmxNNXW49WFcUpgsePlaD2hPQbJjUthm7Elau3_jX7Q3lcqSMK_fIVWKBEjm-FsnyC4Zw4miFzud5bI4GeFSVPfK0E_xHIhyiN5DDqXG_Z-KWiC1P7BPKM_zclNUp3z-nfTgLXlFtqtSwdQ5ZAETgoKipQisv84If5C9tIhaVm7UJIZ3uyJ1tbsivrbr95U_fgKIEACiPx4ywaaX8n26KCDDf7Gk_p9MRhE66KmMF2LsIS8Mz9qVPJ0Oza13vKpFe1dqeCTqxGKEYzMTu-i__AMZoc0/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport Max": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/QRhT0C9Gux7Q6Hlz-Lj-iTIzASFXHN9DXyobC9u7VHY7zOMjXfDgccsR4J2P4yOwNMCQAjopDwPlvUkm-CWE3_6RHjuiyLlNFUFhxKwp73asRS90Yc6tSUHTZ66M7LTX7VTz-0r6aKoUzXcsVKK89I9HRCWldEHr36LRa3hJqkdliaCLXspxSmQ6JuIm6Qq_PVek0Es3zCutwbpjFN2RjmvVZJvXh3v5oLdRWupoFCswqj2KKHK7t8HWak509BsPw9TmTQrr_5vhUJZaQOtgSt14MEk0PlBVCVSa_ogiH-k/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport F1": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/tJM60PfcTHzb924q6vbq_OAMDNi21kjKfe_ZEDkRBqrsG6HccxEWZpl_yB830WOyEsPKCTcpz2VKmScgk5ozjLew_-Z6f85_OzQuGIZLc9dIu7vpEujoPRbQBGMLGN16byld0f0jORC5zNIR55FEhxq-_O-WtUgQWpCc1T78HryZI9eS76rBaEZrFf7P6YOCzdhOuw0H85Xqhjn7zJGFVjzCS1k7TNZttynG25wI1zawIDbwvwrT3h4wZS1kxnCtwl6QEAJMVmirH2EdHJUFUeRygKrPj-TyoeeHfYm7rUI/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport MotoGP": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/xVQdIigQg3uxwaCuMjW6StOPuxEOG4QJzVPXwFdGljlIPn_he1RSpO-P4tCpDBq4t9N61NZUJLOf93yCERQjf7X19yzgz9nObdb6FSPiqY9SEFwyX082jk1softm96i9bL3O8SzftgzsTD51o__EI6BlqnVvtptrGP-a3XZlWOrpEGx3TNuZySuuyde6H7XkFvyKaMTBfqaXLbkEOvrbCbc1T9hS-ayo1JNGemGEz8VIlV0mFQB3YzmOqOyXdFalcjoUR_JeVlWuTK5xLkWAtAXq-qVQRxIObLDLk16OR9Y/hls/index.m3u8"
+        }
+      ]
+    },
+    "Sky Sport Golf": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://7jep2q6xee5pjrv.fu8oefd4v2dvlmaarur6crfp.com/sunshine/hArnSPK1pA8G5_jtvB70cQSJYRametcOxktn9VELv6wNE-v1p0UhJWGOte3bgBcHGQzVyipJ5dnadQKtJU-MOceGNPAqIu9ocqTt1RCjxlNc_CADqnD0bC-ao12vSWjFKqisObuv1nF4ZE7bFLLpLoiH5saf8pdfdsrUStUb9S1mMnSXMGYZkx_Sd1psz_LiP_RHudgd_mBtW8Atae-OQPsTlfxXbH1V0lg0YUScGWMW2suoITH91Q_pBfqG2F11-u1DetPSIwfrkRaDTShGEKY9pNx6QbVbTVWHDou2HHY/hls/index.m3u8"
+        }
+      ]
+    },
+    "DAZN 1": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "http://93.123.109.95:8008/sunshine/2L4creWE31fclahnfukHj9NU4zNK4g4E9kn9i-RK19UQNrTiw1Qry_DaDM3XvtX1MaMTzCFJ6ygZ4JLTfJvlLq6EVIRPunqT1p_FA76W7vTzA7-FeEkdF_kIBQ1QrHFsGk86Ku8AaXaKjbiQRpmrKgHlAcbKH57hpMZD97_C8Od-NA07PR5ynGF5T69lXD-vRZjqizVrBDBkk9fJDljOGJExGq-4p5fDVQWOQAjF_BFQdtBShnjpw2fn_710lHY0145ghTEeYBGHlHe2yl7CBJwwei4iyQQSGyIcSCkIe_I/hls/index.m3u8"
+        }
+      ]
+    },
+    "Eurosport 1": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/XMH7YAU8NkrSxGeOwE_LC8ubVjbpFi50TdDDzkdIRx65e6-3dsZkWlSOhUdqCFCYrtwA-NAOJ0ajmBkZlDrIp5IPvyJMDI5dHTPKMjrrrBORieBQFe4U5UovWYfaAfocxdKbyuYfNq3uQVS1NQdOybCfvg8INgVtgnWVVnnm0G5M8C5SYRfCVFmpvf43SbZG1Es1mxzXDx-S3nyitdSQ5jUNKu_IKrtazQ4ULJsTxdHeh3n8dqN5xbqkcgEh8f-VgSePdvUOkIqpQFh36KzR3OKEMLAD6s7iUARGbDRWhnQ/hls/index.m3u8"
+        }
+      ]
+    },
+    "Eurosport 2": {
+      "enabled": true,
+      "streams": [
+        {
+          "name": "Vavoo",
+          "provider": "vavoo",
+          "priority": 1,
+          "source_url_configured": false,
+          "status": "resolved",
+          "url": "https://qldtgxziwdu7poz.fu8oefd4v2dvlmaarur6crfp.com/sunshine/cjLgjw8Vy-xPvv6W2zxvQm0l2snqEB37fqmuvFJLa9fF2oWKVSOqkIOxwwIXvGChWHvKh29JXGm4u3d4Qnbe6A3t9YGnJjRbdw3x8gIVOCXJ-ZWwqBtJdPHG3p9b1FChwlCTSVu-FsvXverKoR4GUnbOY_u9AjiMHUBGSjcZNaWc2j0-ILlkxRnsXbJH382JGX-eDfSe8pgW_y-lhcnLGwDgeitnhslVBxvPa2mqvxvix8wTQ3vd-gbn0kG7JMOeVPd2tlE9-caO75KNzYIo0waExBCo3RRJL-14rDXDIhI/hls/index.m3u8"
+        }
+      ]
+    }
+  }
+}
