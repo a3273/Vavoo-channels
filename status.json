@@ -16,7 +16,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=rsi%20la%201"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=rsi%20la%201"
         }
       ]
     },
@@ -29,7 +29,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=rsi%20la%202"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=rsi%20la%202"
         }
       ]
     },
@@ -42,7 +42,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%2024"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%2024"
         }
       ]
     },
@@ -55,7 +55,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20uno"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20uno"
         }
       ]
     },
@@ -68,7 +68,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20calcio"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20calcio"
         }
       ]
     },
@@ -81,7 +81,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20tennis"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20tennis"
         }
       ]
     },
@@ -94,7 +94,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20basket"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20basket"
         }
       ]
     },
@@ -107,7 +107,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20serie%20a"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20serie%20a"
         }
       ]
     },
@@ -120,7 +120,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20arena"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20arena"
         }
       ]
     },
@@ -133,7 +133,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20max"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20max"
         }
       ]
     },
@@ -146,7 +146,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20f1"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20f1"
         }
       ]
     },
@@ -159,7 +159,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20motogp"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20motogp"
         }
       ]
     },
@@ -172,7 +172,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=sky%20sport%20golf"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=sky%20sport%20golf"
         }
       ]
     },
@@ -185,7 +185,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=dazn%201"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=dazn%201"
         }
       ]
     },
@@ -198,7 +198,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=eurosport%201"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=eurosport%201"
         }
       ]
     },
@@ -211,7 +211,7 @@
           "priority": 1,
           "source_url_configured": false,
           "status": "resolved",
-          "url": "https://vavoo-stream.simone-scorrano-2011.workers.dev/live?ch=eurosport%202"
+          "url": "https://vavoo-deno.simone11.deno.net/live?ch=eurosport%202"
         }
       ]
     }
