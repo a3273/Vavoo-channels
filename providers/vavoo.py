@@ -1,24 +1,14 @@
-"""Provider Vavoo - stream via Deno Deploy (self-healing).
-
-Storia dei provider testati (tutti bloccati dal CDN Vavoo con 403):
-- Cloudflare Workers: IP datacenter bloccati
-- Val.town: IP bloccati
-- GitHub Actions: IP bloccati
-
-Funzionanti:
-- Deno Deploy  -> PROVIDER PRINCIPALE (1M richieste/mese, CPU solo su codice attivo)
-- Azion        -> BACKUP (8 ore compute/mese)
-"""
+"""Provider Vavoo - stream via Val.town Edge Function (self-healing)."""
 
 import logging
 from urllib.parse import quote
 
 logger = logging.getLogger(__name__)
 
-# Provider principale: Deno Deploy
-WORKER_BASE = "https://vavoo-deno.simone11.deno.net"
+# PROVIDER PRINCIPALE: Val.town
+WORKER_BASE = "https://simone11.val.run/vavoo-stream"
 
-# Backup (scommentare se Deno Deploy dovesse dare problemi):
+# BACKUP: Azion (se Val.town va in limitazione)
 # WORKER_BASE = "https://vavoo-stream.azion.app"
 
 
@@ -37,7 +27,7 @@ def resolve(channel, stream):
         "url": stable_url,
         "provider": "Vavoo",
         "quality": "HD",
-        "headers": {},  # tutto gestito dall'Edge Function
+        "headers": {},
         "extra_vlcopts": [],
         "proxy": "direct",
         "proxy_required": False,
