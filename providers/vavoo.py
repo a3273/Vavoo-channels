@@ -1,32 +1,43 @@
-"""
-Provider Vavoo - stream via Worker Cloudflare self-healing.
+"""Provider Vavoo - stream via Deno Deploy (self-healing).
 
-Il Worker risolve l'URL fresco a ogni richiesta manifest.
+Storia dei provider testati (tutti bloccati dal CDN Vavoo con 403):
+- Cloudflare Workers: IP datacenter bloccati
+- Val.town: IP bloccati
+- GitHub Actions: IP bloccati
+
+Funzionanti:
+- Deno Deploy  -> PROVIDER PRINCIPALE (1M richieste/mese, CPU solo su codice attivo)
+- Azion        -> BACKUP (8 ore compute/mese)
 """
 
 import logging
+from urllib.parse import quote
 
 logger = logging.getLogger(__name__)
 
-# IL TUO WORKER VAVOO
-WORKER_BASE = "https://vavoo-stream.simone-scorrano-2011.workers.dev"
+# Provider principale: Deno Deploy
+WORKER_BASE = "https://vavoo-deno.simone11.deno.net"
+
+# Backup (scommentare se Deno Deploy dovesse dare problemi):
+# WORKER_BASE = "https://vavoo-stream.azion.app"
 
 
 def resolve(channel, stream):
-    """URL stabile: il Worker self-healing risolve Vavoo al volo."""
+    """URL stabile: l'Edge Function risolve il canale Vavoo a ogni richiesta manifest."""
     query = stream.get("query") or channel.get("name", "")
-    
-    # URL encode della query per sicurezza
-    from urllib.parse import quote
-    encoded_query = quote(query)
-    
-    stable_url = f"{WORKER_BASE}/live?ch={encoded_query}"
+    if not query:
+        raise ValueError("Vavoo: nessuna query/canale configurato")
+
+    encoded = quote(query)
+    stable_url = f"{WORKER_BASE}/live?ch={encoded}"
+
+    logger.info("Vavoo: %s -> %s", query, stable_url)
 
     return {
         "url": stable_url,
         "provider": "Vavoo",
         "quality": "HD",
-        "headers": {},  # Il worker gestisce tutto
+        "headers": {},  # tutto gestito dall'Edge Function
         "extra_vlcopts": [],
         "proxy": "direct",
         "proxy_required": False,
