@@ -1,0 +1,16 @@
+name: warm-vavoo
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping warm
+        run: |
+          curl -s -o /dev/null -w "warm: HTTP %{http_code}\n" \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+            "https://simone11.val.run/vavoo-stream/warm?ch=sky%20sport%20uno"
