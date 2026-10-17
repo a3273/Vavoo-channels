@@ -28,7 +28,8 @@ def resolve(channel, stream):
         "provider": "Vavoo",
         "quality": "HD",
         "headers": {},
-        "extra_vlcopts": [],
+        "extra_vlcopts": ["network-caching=10000"],
         "proxy": "direct",
         "proxy_required": False,
     }
+    
