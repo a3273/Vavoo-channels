@@ -9,8 +9,11 @@ jobs:
   warm:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping warm
+      - name: Warm cache for all channels
         run: |
-          curl -s -o /dev/null -w "warm: HTTP %{http_code}\n" \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
-            "https://simone11.val.run/vavoo-stream/warm?ch=sky%20sport%20uno"
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+          for CH in "rsi%20la%201" "rsi%20la%202" "sky%20sport%2024" "sky%20sport%20uno" "sky%20sport%20calcio" "sky%20sport%20tennis" "sky%20sport%20basket" "sky%20sport%20serie%20a" "sky%20sport%20arena" "sky%20sport%20max" "sky%20sport%20f1" "sky%20sport%20motogp" "sky%20sport%20golf" "dazn%201" "eurosport%201" "eurosport%202"; do
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" -H "User-Agent: $UA" "https://simone11.val.run/vavoo-stream/warm?ch=$CH")
+            echo "warm $CH -> $CODE"
+          done
+          
